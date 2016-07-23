@@ -1,7 +1,7 @@
 # The-duino
 
 This Following program uses Arduino Uno to read the surrounding room temperature using a LM35 in celcius and
-prints the final value on both the Serial monitor through serial port and 4 Digit Seven Segment Multiplexed display.
+prints the final value on both the Serial monitor through serial port and 4 Digit Seven Segment Multiplexed display (COMMON ANODE).
 
 Pin Connections :
 -LM35 data pin to A0 ( it's not hardcoded you can replace it ).
