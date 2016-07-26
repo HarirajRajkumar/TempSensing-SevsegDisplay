@@ -62,7 +62,7 @@ SevSeg sevseg;  // Class Object
  
  // Funcn to calculate the Surrounding temperature
   float Mytemp() { 
-  float finalTemp_inC = (5.0 *  analogRead(TempPin) * 100.0) / 1024; // Standard formula to calculate the temperature in *C
+  float finalTemp_inC = (5.0 *  analogRead(TempPin) * 100.0) / 1024; //  Formula to calculate the temperature in *C obtained from LM35 Datasheet
   return finalTemp_inC;  // Returns the Calculated value to the loop funcn in float data type
   }// Close Mytemp
 
